@@ -12,7 +12,7 @@ Invalid Input or Undefined = Otherwise
 using namespace std;
 
 void solve(string str){
-    if(str[1] >= '1' && str[0] <= '9'){
+    if(str[0] >= '1' && str[0] <= '9'){
         int c = 0;
         for(int i = 1; i < str.length(); i++){
             if(str[i] >= '0' && str[i] <= '9'){
